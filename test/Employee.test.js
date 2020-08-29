@@ -1,5 +1,6 @@
 const Employee = require("../lib/Employee");
 
+// instantiation creates a new instance of a class (object oriented, object is instance of a class)
 test("Can instantiate Employee instance", () => {
   const e = new Employee();
   expect(typeof(e)).toBe("object");
